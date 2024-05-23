@@ -1,0 +1,22 @@
+{
+  "node": {
+    "4fd3f7a7df511bfefb3796d24ce3a15fab4161e0": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FFinntroll%2FProjects%2Fartevidedemo%2Fsrc%2Flib%2Fcookies%2Flanguage%2FLanguageCookieRequests.ts%22%2C%5B%22getLanguageFromCookie%22%2C%22saveLanguageToCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "0418d3177c9759f9d92634b167cfc04abe626017": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FFinntroll%2FProjects%2Fartevidedemo%2Fsrc%2Flib%2Fcookies%2Flanguage%2FLanguageCookieRequests.ts%22%2C%5B%22getLanguageFromCookie%22%2C%22saveLanguageToCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "8fkSUQkGhkQhS0uh0/VAKzcuzmSzO529WnwvzQ02KLU="
+}

@@ -1,0 +1,91 @@
+{
+    "header_menu": {
+        "history": {
+            "name": "Geschichte der Stiftung",
+            "submenu": {
+                "history": "Geschichte",
+                "mission": "Mission",
+                "methods": "Arbeitsmethoden"
+            }
+        },
+        "projects": {
+            "name": "Unsere Projekte",
+            "submenu": {
+                "ready": "Durchgeführte",
+                "current": "Aktuelle",
+                "regular": "Regelmäßige"
+            }
+        },
+        "partner": "Partnerschaft",
+        "gallery": "Galerie"
+    },
+    "header_actions": {
+        "donate": "Spenden"
+    },
+    "main": {
+        "title": "Bereitwillig zu geben bedeutet mehr als zu geben*",
+        "subtitle": "Wohltätigkeitsstiftung HelpWay"
+    },
+    "history": {
+        "title": "Geschichte der Stiftung",
+        "subtitle": "2010 begann unsere Zusammenarbeit mit der Umsetzung von Projekten zur Unterstützung von Waisenkindern.",
+        "text1": "Mit der Gründung schufen wir eine Wohltätigkeitsstiftung, die es sich zur Aufgabe gemacht hat, Waisenkinder auf ihrem Lebensweg zu unterstützen und ihnen eine gute Kindheit zu ermöglichen. Seitdem haben wir viele Projekte durchgeführt, um das Leben der Kinder fröhlicher und glücklicher zu machen. Im Laufe der Jahre haben wir mehr als 24 Kindercamps organisiert, an denen jeweils 100 bis 180 Kinder teilgenommen haben.",
+        "text2": "Unsere Überzeugung ist, dass Kinder bei solchen Aktivitäten neue Freunde finden, zusätzliche Kenntnisse erwerben und ihre Talente entwickeln können. Für Hunderte von Kindern, die an unseren Programmen teilgenommen haben, sind dies unvergessliche Erfahrungen und bieten ein neues Umfeld. In jedem der Camps hatten Kinder die Möglichkeit etwas zu lernen, sich zu entwickeln, Kontakte zu knüpfen und die bestmögliche Kindheitserfahrung zu sammeln. Seit vier Jahren erhalten die Kinder am Ende des Camps ihre Lieblingszeitschrift \"Dein Weg\", welche wir gemeinsam mit unserem Team halbjährlich erstellen, um Erinnerungen zu bewahren und die Camps zusammenzufassen. Diese Zeitschrift ist ein Fenster in die Welt der Errungenschaften und Reisen unserer Teilnehmer, und wir sind stolz darauf, diese Geschichte bewahren zu können.",
+        "all": "Mehr anzeigen",
+        "blocks": {
+            "first": "Organisierte Kindercamps",
+            "second": "Jahre Veröffentlichung des Magazins 'Dein Weg'",
+            "third": "Hauptberufliche Freiwillige",
+            "fourth": "Kinder vereint im Camp",
+            "fifth": "Unterstützung für internatsschulen in der Ukraine"
+        }
+    },
+    "mission": {
+        "title": "Aufgaben und Ziele",
+        "items": {
+            "first": "Den Kindern Chancen für ihr zukünftiges Leben und ihre Entwicklung bieten",
+            "second": "Horizonte erweitern und die Talente der Kinder fördern",
+            "third": "Zugang zu Bildung und medizinischer Versorgung gewährleisten",
+            "fourth": "Kindheit wiederherstellen und Liebe und Unterstützung bieten",
+            "fifth": "Ein stabiles und sicheres Umfeld für Kinder schaffen",
+            "six": "Die körperliche, psychologische und soziale Entwicklung fördern"
+        }
+    },
+    "work": {
+        "title": "Unser Ansatz umfasst die folgenden Schritte:",
+        "first": "Projektplanung: Wir beginnen mit einer sorgfältigen Planung jedes Projekts, bei der wir die Ziele, den Ort, den Arbeitsumfang und die Anzahl der beteiligten Kinder klar festlegen.",
+        "second": "Möglichkeiten zur Umsetzung suchen: Unser Team sucht gemeinsam mit unseren Partnern nach Möglichkeiten zur Umsetzung von Projekten unter Nutzung aktueller und potenzieller Ressourcen.",
+        "third": "Finanzierung sichern: Ein wichtiger Schritt ist die Berechnung der Kosten für die Durchführung des Projekts und die Suche nach finanzieller Unterstützung.",
+        "fourth": "Anmeldung von Kindern für das Camp : Wir bieten Kindern die Möglichkeit, an unseren Camps teilzunehmen, wo sie unvergessliche Abenteuer erleben und neue Kenntnisse erwerben können.",
+        "fifth": "Durchführung der Projekte: Mit Beharrlichkeit, Engagement und externer Unterstützung setzen wir jedes Projekt um. So können wir den Kindern schöne Momente ihrer Kindheit schenken und ihnen die Möglichkeit geben sich zu entwickeln."
+    },
+    "projects": {
+        "title": "Projekte",
+        "ready": "Durchgeführte",
+        "current": "Aktuelle",
+        "regular": "Regelmäßige",
+        "detail": "Mehr lesen"
+    },
+    "pay": {
+        "title": "Spenden",
+        "info": "Bereitwillig zu geben bedeutet mehr als zu geben",
+        "info2": "Beteiligen Sie sich an der Beschaffung von Mitteln zur Unterstützung von Waisenkindern. Wir sind unbesiegbar, wenn wir vereint sind!"
+    },
+    "partners": {
+        "title": "Partnerschaft",
+        "info": "Beteiligen Sie sich an der Spendenaktion zur Unterstützung von Kindern in Schwierigkeiten. Unsere Wohltätigkeitsorganisation setzt sich für eine bessere Zukunft für kleine Herzen ein.",
+        "info2": "Machen Sie noch heute mit und werden Sie Teil des positiven Wandels!"
+    },
+    "partners_page": {
+        "info": "Um eine Partnerschaft vorzuschlagen, füllen Sie bitte das folgende Formular aus. Wir werden uns in den kommenden Arbeitstagen bei Ihnen melden.",
+        "name": "Vorname und Nachname",
+        "name_hint": "Geben Sie Ihren Vor- und Nachnamen ein",
+        "email_hint": "Geben Sie Ihre E-Mail Adresse ein",
+        "company_name": "Name der Organisation",
+        "company_name_hint": "Geben Sie den Gesellschaftsnamen ein",
+        "partnership": "Art der Partnerschaft",
+        "partnership_hint": "Wählen Sie die Art der Partnerschaft"
+    },
+    "donate": "Spenden",
+    "our_projects": "Projekte"
+}
