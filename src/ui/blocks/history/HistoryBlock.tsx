@@ -58,7 +58,7 @@ export default function HistoryBlock() {
                     <CardInfo title={"24"} text={translations.history.blocks.first} color={"green"}/>
                     <CardInfo title={"4"} text={translations.history.blocks.second} color={"purple"}/>
                     <CardInfo title={"35"} text={translations.history.blocks.third} color={"pink"}/>
-                    <CardInfo title={"180+"} text={translations.history.blocks.fourth} color={"peache"}/>
+                    <CardInfo title={"180"} text={translations.history.blocks.fourth} color={"peache"}/>
                     <CardInfo title={"10"} text={translations.history.blocks.fifth} color={"orange"}/>
                     <div className={style.card_project} onClick={() => {
                         router.push(`/#${mainPageIds.project.ready}`)
