@@ -6,7 +6,8 @@ import Footer from '@/ui/components/footer/Footer';
 import Button from "@/ui/components/button/Button";
 import {Checkbox, CheckboxProps} from 'antd';
 import {useContext} from "react";
-import {LanguageContext} from "@/utils/language/LanguageContext";
+import { LanguageContext } from "@/utils/language/LanguageContext";
+import { Select } from 'antd';
 
 export default function Page() {
 
@@ -15,6 +16,12 @@ export default function Page() {
     const onChange: CheckboxProps['onChange'] = (e) => {
         console.log(`checked = ${e.target.checked}`);
     };
+
+    const offerOptions = [
+        { value:  translations.partners_page.offer_option1 , label: <span>{translations.partners_page.offer_option1}</span> },
+        { value:  translations.partners_page.offer_option2 , label: <span>{translations.partners_page.offer_option2}</span> },
+        { value:  translations.partners_page.offer_option3 , label: <span>{translations.partners_page.offer_option3}</span> }
+    ]
 
     return (
         <main className={styles.main}>
@@ -44,13 +51,14 @@ export default function Page() {
 
                                     }}/>
                                 <div className={styles.spacer}/>
-                                <TextField
-                                    title={"Пропозиція"}
-                                    hint={"Ваша пропозиція"}
-                                    type={"string"}
-                                    onTextChange={(text) => {
-
-                                    }}/>
+                                <div className={styles.field_wrapper}>
+                                    <p className={styles.field_title}>{translations.partners_page.offer}</p>
+                                    <Select
+                                        className={styles.field}
+                                        dropdownStyle={{ borderRadius: '5px 5px 20px 20px' }} 
+                                    placeholder={translations.partners_page.offer_hint}
+                                        options={offerOptions} />
+                                </div>
                             </div>
                             <div className={styles.fields_second}>
                                 <TextField
@@ -72,7 +80,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className={styles.spacer}/>
-                        <Button text={"Відправити"} type={"primary"} onClick={() => {
+                        <Button text={translations.partners_page.send} type={"primary"} onClick={() => {
                         }} customStyle={styles.button}/>
                     </div>
                 </div>

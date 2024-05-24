@@ -8,6 +8,10 @@
     align-items: center;
     padding: $padding_desktop;
     margin-top: 40px;
+    background-image: url(../../../../public/svg/world.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-y: 35%;
 }
 
 .logo {

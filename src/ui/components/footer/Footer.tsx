@@ -27,8 +27,8 @@ export default function Footer() {
                         {translations.main.subtitle}
                     </h2>
                     <div className={style.items}>
-                        <a href={`/#${mainPageIds.main}`}>Головна</a>
-                        <a href={`/#${mainPageIds.history}`}>{translations.header_menu.projects.name}</a>
+                        <a href={`/#${mainPageIds.main}`}>{translations.footer.home}</a>
+                        <a href={`/#${mainPageIds.history}`}>{translations.header_menu.history.submenu.history}</a>
                         <a href={`/#${mainPageIds.mission}`}>{translations.header_menu.history.submenu.mission}</a>
                         <a href={`/#${mainPageIds.work}`}>{translations.header_menu.history.submenu.methods}</a>
                         <a href={`/#${mainPageIds.project.ready}`}>{translations.header_menu.projects.name}</a>

@@ -22,7 +22,7 @@ export default function HowDoWorkBlock() {
         <div className={style.container} id={mainPageIds.work}>
             <div className={style.block}>
                 <h3>
-                    Наша методика роботи включає наступні кроки:
+                    {translations.work.title}
                 </h3>
                 <div className={style.grid}>
                     {
