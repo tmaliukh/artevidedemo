@@ -24,6 +24,9 @@ export default function PartnersBlock() {
                         {translations.partners.info}
                     </p>
                     <p>
+                        {translations.partners.info1}
+                    </p>
+                    <p>
                         {translations.partners.info2}
                     </p>
                 </div>

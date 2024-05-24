@@ -3,7 +3,7 @@
         "history": {
             "name": "About Foundation",
             "submenu": {
-                "history": "Story",
+                "history": "Foundation's History",
                 "mission": "Mission",
                 "methods": "Working methods"
             }
@@ -23,7 +23,7 @@
         "donate": "Donate"
     },
     "main": {
-        "title": "Giving with a willing heart means more than just giving",
+        "title": "Do not withhold good from those who deserve it, when it is in your power to act.",
         "subtitle": "Charity Foundation HelpWay"
     },
     "history": {
@@ -43,27 +43,27 @@
     "mission": {
         "title": "Mission and Purpose",
         "items": {
-            "first": "Provide children with opportunities to live and develop",
+            "first": "Provide children with opportunities for comprehensive growth",
             "second": "Expand horizons and nurture children's talents",
             "third": "Ensure access to education and medical care",
-            "fourth": "Restore childhood and offer love and support",
-            "fifth": "Build a stable and safe environment for children",
+            "fourth": "Provide the support and care that are important for a fulfilling childhood",
+            "fifth": "Create a sustainable and safe environment",
             "six": "Foster their physical, psychological, and social development"
         }
     },
     "work": {
         "title": "Our approach includes the following steps:",
-        "first": "Project planning: We start with detailed planning of each project, where we clearly define the goals, objectives, location, scope of work, and number of children involved.",
-        "second": "Analysis of the implementation options: Together with our partners, our team searches for ways to implement projects using existing and potential resources.",
-        "third": "Funding for the project: An important step is to calculate the cost of implementing the project and attract financial support.",
-        "fourth": "Recruitment of children in camps: We offer children the opportunity to join our camps, where they can find memorable adventures and gain new skills.",
-        "fifth": "Project implementation: With our perseverance, dedication and external support from our Partners, we implement each project, giving children bright moments of their childhood and providing them with the opportunity to succeed and develop."
+        "first": "Project planning: Defining goals, tasks, venue, scope of work.",
+        "second": "Analysis of the implementation paths: Collaboration with partners on implementing projects involving current and potential resources.",
+        "third": "Funding: Estimating project implementation costs and seeking financial support for its execution.",
+        "fourth": "Enrolment of children in camps: Cooperation with boarding schools, offering them our opportunities and organising the enrolment of children to the camp.",
+        "fifth": "Project implementation: Through the collective efforts of partners, volunteers, and school staff in boarding schools, we successfully complete the camp implementation."
     },
     "projects": {
         "title": "Our Projects",
-        "ready": "Implemented",
+        "ready": "Implemented Projects",
         "current": "Ongoing",
-        "regular": "Regular",
+        "regular": "Regular Projects",
         "detail": "Find out more"
     },
     "pay": {
@@ -73,7 +73,8 @@
     },
     "partners": {
         "title": "Partnership",
-        "info": "Contribute to changing the lives of children in need with us! Our charity is working to ensure a better future for little hearts.",
+        "info": "Welcome to our partnership programme!",
+        "info1": "We appreciate your interest in working with us. By filling out this form, you can choose the type of cooperation that best suits your capabilities and interests. We are open to various forms of partnership, whether it is material support, mental or financial support, or volunteering.",
         "info2": "Join us today and become part of the positive change!"
     },
     "partners_page": {
@@ -84,7 +85,16 @@
         "company_name": "Name of the company",
         "company_name_hint": "Enter the name",
         "partnership": "Kind of partnership",
-        "partnership_hint": "Choose the kind of partnership"
+        "partnership_hint": "Choose the kind of partnership",
+        "offer": "Offer",
+        "offer_hint": "Your offer",
+        "offer_option1": "Financial support",
+        "offer_option2": "Voluntary contributions",
+        "offer_option3": "Donating equipment/property",
+        "send": "Send"
+    },
+    "footer": {
+        "home": "Home page"
     },
     "donate": "Donate",
     "our_projects": "Our projects"
