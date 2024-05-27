@@ -3,14 +3,15 @@
 import style from "./style.module.scss"
 import ProjectItem from "@/ui/components/project_item/ProjectItem";
 import Button from "@/ui/components/button/Button";
-import {mainPageIds} from "@/utils/Const";
+import { mainPageIds } from "@/utils/Const";
+import { useRouter } from 'next/navigation';
 import {LanguageContext} from "@/utils/language/LanguageContext";
 import {useContext} from "react";
 
 export default function ProjectsBlock() {
 
     const {translations} = useContext(LanguageContext)!
-
+    const router = useRouter()
 
     return (
         <div className={style.container} id={mainPageIds.project.ready}>
@@ -21,20 +22,22 @@ export default function ProjectsBlock() {
                 <Button
                     text={translations.projects.ready}
                     customStyle={style.buttons_type}
-                    onClick={() => {
-                    }}/>
+                    onClick={() => { router.push("/projects") }}
+                />
                 <Button
                     text={translations.projects.current}
                     type={"primary_dark"}
                     customStyle={style.buttons_type}
-                    onClick={() => {
-                    }}/>
+                    onClick={() => { router.push("/projects") }}
+                />
+
                 <Button
                     text={translations.projects.regular}
                     type={"primary_dark"}
                     customStyle={style.buttons_type}
-                    onClick={() => {
-                    }}/>
+                    onClick={() => { router.push("/projects") }}
+                />
+
             </div>
             <div className={style.grid_container}>
                 {
