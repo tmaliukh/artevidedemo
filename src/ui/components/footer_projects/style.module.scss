@@ -2,7 +2,7 @@
 @import "/src/ui/styles/style_colors.module.scss";
 
 .container {
-    padding: $padding_desktop;
+    padding: 75px $padding_desktop;
     background: $style_color_dark;
     color: $style_color_text_secondary;
 
@@ -45,11 +45,29 @@
             line-height: 24px;
         }
     }
-
-    .logo {
-        margin-bottom: 36px;
-        justify-content: flex-start;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    @media (max-width: 650px) {
+        margin-bottom: $padding_mobile;
+        margin-top: $padding_mobile;
     }
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+.icons {
+    padding-top: 8px;
+    display: flex;
+    text-align: center;
+    gap: 16px;
+    vertical-align: middle;
 }
 
 

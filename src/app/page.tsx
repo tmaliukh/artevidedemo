@@ -21,7 +21,7 @@ export default function Home() {
                 <HowDoWorkBlock/>
                 <ProjectsBlock/>
                 <PayBlock/>
-                <GalleryBlock/>
+                <GalleryBlock isHeader/>
                 <PartnersBlock/>
                 <Footer/>
             </div>

@@ -4,26 +4,28 @@ import {Image} from 'antd';
 import style from './style.module.scss';
 import {mainPageIds} from "@/utils/Const";
 import {useContext} from "react";
-import {LanguageContext} from "@/utils/language/LanguageContext";
+import { LanguageContext } from "@/utils/language/LanguageContext";
 
-export default function GalleryBlock() {
+const urlsImg = [
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+    "https://placehold.co/600x400.png",
+]
+
+export default function GalleryBlock({ isHeader = false, urls=urlsImg }) {
 
     const {translations} = useContext(LanguageContext)!
 
-    const urls = [
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-        "https://placehold.co/600x400.png",
-    ]
+
 
     return (
         <div>
@@ -31,9 +33,9 @@ export default function GalleryBlock() {
                 movable: false
             }}>
                 <div className={style.container} id={mainPageIds.gallery}>
-                    <h3>
+                    {isHeader && <h3>
                         {translations.header_menu.gallery}
-                    </h3>
+                    </h3>}
                     <div className={style.content}>
                         <div className={style.images}>
                             {
