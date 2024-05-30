@@ -22,20 +22,20 @@ export default function ProjectsBlock() {
                 <Button
                     text={translations.projects.ready}
                     customStyle={style.buttons_type}
-                    onClick={() => { router.push("/projects") }}
+                    onClick={() => { router.push("/project") }}
                 />
                 <Button
                     text={translations.projects.current}
                     type={"primary_dark"}
                     customStyle={style.buttons_type}
-                    onClick={() => { router.push("/projects") }}
+                    onClick={() => { router.push("/project") }}
                 />
 
                 <Button
                     text={translations.projects.regular}
                     type={"primary_dark"}
                     customStyle={style.buttons_type}
-                    onClick={() => { router.push("/projects") }}
+                    onClick={() => { router.push("/project") }}
                 />
 
             </div>
