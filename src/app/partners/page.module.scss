@@ -140,3 +140,16 @@
         border: 1px solid $style_color_green;
     }
 }
+
+.field_select {
+    @extend .field;
+    border: none;
+}
+
+.select_div {
+    height: 52px;
+}
+.select_div > div {
+    height: 100%;
+
+}

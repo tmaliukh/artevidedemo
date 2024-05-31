@@ -53,11 +53,13 @@ export default function Page() {
                                 <div className={styles.spacer}/>
                                 <div className={styles.field_wrapper}>
                                     <p className={styles.field_title}>{translations.partners_page.offer}</p>
+                                    <div className={styles.select_div}>
                                     <Select
-                                        className={styles.field}
-                                        dropdownStyle={{ borderRadius: '5px 5px 20px 20px' }} 
-                                    placeholder={translations.partners_page.offer_hint}
+                                        className={styles.field_select}
+                                        // dropdownStyle={{ borderRadius: '5px 5px 20px 20px' }} 
+                                        placeholder={translations.partners_page.offer_hint}
                                         options={offerOptions} />
+                                    </div>
                                 </div>
                             </div>
                             <div className={styles.fields_second}>
