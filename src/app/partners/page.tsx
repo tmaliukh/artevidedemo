@@ -4,29 +4,29 @@ import Header from '@/ui/components/header/Header'
 import styles from './page.module.scss'
 import Footer from '@/ui/components/footer/Footer';
 import Button from "@/ui/components/button/Button";
-import {Checkbox, CheckboxProps} from 'antd';
-import {useContext} from "react";
+import { Checkbox, CheckboxProps } from 'antd';
+import { useContext } from "react";
 import { LanguageContext } from "@/utils/language/LanguageContext";
 import { Select } from 'antd';
 
 export default function Page() {
 
-    const {translations} = useContext(LanguageContext)!
+    const { translations } = useContext(LanguageContext)!
 
     const onChange: CheckboxProps['onChange'] = (e) => {
         console.log(`checked = ${e.target.checked}`);
     };
 
     const offerOptions = [
-        { value:  translations.partners_page.offer_option1 , label: <span>{translations.partners_page.offer_option1}</span> },
-        { value:  translations.partners_page.offer_option2 , label: <span>{translations.partners_page.offer_option2}</span> },
-        { value:  translations.partners_page.offer_option3 , label: <span>{translations.partners_page.offer_option3}</span> }
+        { value: translations.partners_page.offer_option1, label: <span className={styles.select_text}>{translations.partners_page.offer_option1}</span> },
+        { value: translations.partners_page.offer_option2, label: <span className={styles.select_text}>{translations.partners_page.offer_option2}</span> },
+        { value: translations.partners_page.offer_option3, label: <span className={styles.select_text}>{translations.partners_page.offer_option3}</span> }
     ]
 
     return (
         <main className={styles.main}>
             <div className={styles.container}>
-                <Header/>
+                <Header />
                 <div className={styles.partners_container}>
                     <div className={styles.header}>
                         <h1>{translations.header_menu.partner}</h1>
@@ -41,24 +41,23 @@ export default function Page() {
                                     type={"string"}
                                     onTextChange={(text) => {
 
-                                    }}/>
-                                <div className={styles.spacer}/>
+                                    }} />
+                                <div className={styles.spacer} />
                                 <TextField
                                     title={translations.partners_page.name}
                                     hint={translations.partners_page.name_hint}
                                     type={"string"}
                                     onTextChange={(text) => {
 
-                                    }}/>
-                                <div className={styles.spacer}/>
+                                    }} />
+                                <div className={styles.spacer} />
                                 <div className={styles.field_wrapper}>
                                     <p className={styles.field_title}>{translations.partners_page.offer}</p>
                                     <div className={styles.select_div}>
-                                    <Select
-                                        className={styles.field_select}
-                                        // dropdownStyle={{ borderRadius: '5px 5px 20px 20px' }} 
-                                        placeholder={translations.partners_page.offer_hint}
-                                        options={offerOptions} />
+                                        <Select
+                                            className={styles.field_select}
+                                            placeholder={<span className={styles.select_text}>{translations.partners_page.offer_hint}</span>}
+                                            options={offerOptions} />
                                     </div>
                                 </div>
                             </div>
@@ -69,24 +68,24 @@ export default function Page() {
                                     type={"string"}
                                     onTextChange={(text) => {
 
-                                    }}/>
-                                <div className={styles.spacer}/>
+                                    }} />
+                                <div className={styles.spacer} />
                                 <TextField
                                     title={"Email"}
                                     hint={translations.partners_page.email_hint}
                                     type={"string"}
                                     onTextChange={(text) => {
 
-                                    }}/>
-                                <div className={styles.spacer}/>
+                                    }} />
+                                <div className={styles.spacer} />
                             </div>
                         </div>
-                        <div className={styles.spacer}/>
+                        <div className={styles.spacer} />
                         <Button text={translations.partners_page.send} type={"primary"} onClick={() => {
-                        }} customStyle={styles.button}/>
+                        }} customStyle={styles.button} />
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         </main>
     )
@@ -103,14 +102,14 @@ interface props {
 }
 
 const TextField: React.FC<props> = ({
-                                        title,
-                                        customClass,
-                                        hint,
-                                        pattern = "",
-                                        type,
-                                        value = "",
-                                        onTextChange
-                                    }) => {
+    title,
+    customClass,
+    hint,
+    pattern = "",
+    type,
+    value = "",
+    onTextChange
+}) => {
 
     const classes = `${styles.field_wrapper} ${customClass || ''}`;
 

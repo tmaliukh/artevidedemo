@@ -78,6 +78,9 @@
 .fields_first {
     flex: 1;
     margin-right: 25px;
+        @media (max-width: 650px) {
+        margin-right: 0px;
+    }
 }
 
 .fields_second {
@@ -146,8 +149,14 @@
     border: none;
 }
 
+.select_text {
+    font-size: 18px;
+    color: $style_color_text_secondary;
+};
+
 .select_div {
     height: 52px;
+    border-radius: 180px;
 }
 .select_div > div {
     height: 100%;
